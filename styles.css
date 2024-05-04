@@ -5,6 +5,16 @@ body {
   font-size:11px;
 }
 
+a {
+  text-decoration:none;
+  color:#954531;
+}
+
+a:hover {
+  text-decoration:underline;
+  color:#316595;
+}
+
 #myInput {
   margin-left:2%;
   margin-right:2%;
@@ -29,10 +39,6 @@ thead {
   color:#eaeaea;
   background:#954531;
   text-align:center;
-}
-
-tbody tr:hover {
-  background-color:lightgray;
 }
 
 tbody td {
