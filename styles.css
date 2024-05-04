@@ -1,14 +1,14 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1200px) {
   #myInput {
-    margin-left:1%;
-    margin-right:1%;
+    margin-left:10px;
+    margin-right:10px;
     width:100%;
   }
   
   table {
-    margin-left:0;
-    margin-right:0;
-    width:800px;
+    margin-left:10px;
+    margin-right:10px;
+    width:1200px;
     overflow:auto;
   }
 }
