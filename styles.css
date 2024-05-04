@@ -51,7 +51,6 @@ ol {
   font-size:15px;
   padding-left:12px;
   margin-bottom:20px;
-  position:fixed;
 }
 
 table {
@@ -59,9 +58,6 @@ table {
   margin-left:2%;
   margin-right:2%;
   width:96%;
-  position:fixed;
-  margin-top: 80px;
-  overflow:auto;
 }
 
 thead {
