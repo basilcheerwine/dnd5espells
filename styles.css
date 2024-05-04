@@ -7,9 +7,7 @@
   
   table {
     margin-left:10px;
-    margin-right:10px;
     width:1200px;
-    overflow:auto;
   }
 }
 
@@ -53,6 +51,7 @@ ol {
   font-size:15px;
   padding-left:12px;
   margin-bottom:20px;
+  position:fixed;
 }
 
 table {
@@ -60,6 +59,8 @@ table {
   margin-left:2%;
   margin-right:2%;
   width:96%;
+  position:fixed;
+  overflow:auto;
 }
 
 thead {
