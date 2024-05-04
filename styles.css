@@ -1,7 +1,7 @@
 body {
   background: #eaeaea;
   color:#393939;
-  font-family:'Roboto';
+  font-family:'Calibri';
   font-size:11px;
 }
 
@@ -37,4 +37,8 @@ tbody tr:hover {
 
 tbody td {
   border:0.5px solid #954531;
+}
+
+td {
+  padding:5px;
 }
