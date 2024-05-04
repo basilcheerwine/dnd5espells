@@ -7,12 +7,11 @@ body {
 
 a {
   text-decoration:none;
-  color:black;
   background-color:#95453130;
 }
 
 a:hover {
-  text-decoration:underline;
+  text-decoration:none;
   color:white;
   background-color:#954531;
 }
