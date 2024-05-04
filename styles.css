@@ -1,7 +1,7 @@
 body {
   background: #eaeaea;
   color:#393939;
-  font-family:'Calibri';
+  font-family:'Roboto';
   font-size:11px;
 }
 
@@ -25,21 +25,16 @@ table {
 
 thead {
   font-weight:bold;
-  font-size:14px;
+  font-size:12px;
   color:#eaeaea;
-  background:#1d705b;
+  background:#954531;
   text-align:center;
 }
 
-thead td {
-  padding:5px;
-}
-
 tbody tr:hover {
-  background-color:#89cfbe;
+  background-color:lightgray;
 }
 
 tbody td {
-  border:0.5px solid #004735;
-  padding:5px;
+  border:0.5px solid #954531;
 }
