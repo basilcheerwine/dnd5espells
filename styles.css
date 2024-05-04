@@ -7,16 +7,26 @@ body {
 
 a {
   text-decoration:none;
-  color:#954531;
+  color:black;
+  background-color:#95453130;
 }
 
 a:hover {
   text-decoration:underline;
-  color:#316595;
+  color:white;
+  background-color:#954531;
 }
 
-li {
-  margin-left:8px;
+ul {
+	padding-left:20px;
+}
+
+ul ul {
+	padding-left:20px;
+}
+
+ol {
+	padding-left:20px;
 }
 
 #myInput {
