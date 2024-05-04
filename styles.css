@@ -60,6 +60,7 @@ table {
   margin-right:2%;
   width:96%;
   position:fixed;
+  margin-top: 80px;
   overflow:auto;
 }
 
