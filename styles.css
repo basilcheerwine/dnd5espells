@@ -2,7 +2,13 @@
   #myInput {
     margin-left:10px;
     margin-right:10px;
-    width:100%;
+    width:75%;
+  }
+
+  #classSelect {
+    margin-left:10px;
+    margin-right:10px;
+    width:25%;
   }
   
   table {
@@ -45,13 +51,25 @@ ol {
 #myInput {
   margin-left:2%;
   margin-right:2%;
-  width:96%;
+  width:71%;
   height:40px;
   margin-top:20px;
   font-size:15px;
   box-sizing:border-box;
   padding-left:12px;
   margin-bottom:20px;
+}
+
+#classSelect {
+  margin-left:2%;
+  margin-right:2%;
+  width:21%;
+  height:40px;
+  margin-top:20px;
+  font-size:15px;
+  box-sizing:border-box;
+  margin-bottom:20px;
+
 }
 
 table {

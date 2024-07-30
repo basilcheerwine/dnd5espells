@@ -13,6 +13,87 @@
   <body>
 
     <input id="myInput" onkeyup="myFunction()" placeholder="Search for a spell name" type="text">
+<!--
+    <label for="classSelect">Filter by class:</label><br>
+      <select name="classSelect" id="classSelect" onchange="filterClass()">
+        <option value="blank"></option>
+        <option value=1>Artificer</option>
+        <option value=2>Bard</option>
+        <option value=3>Cleric</option>
+        <option value=4>Druid</option>
+        <option value=5>Paladin</option>
+        <option value=6>Ranger</option>
+        <option value=7>Sorcerer</option>
+        <option value=8>Warlock</option>
+        <option value=9>Wizard</option>
+        <option value=10>Artificer (Alchemist)</option>
+        <option value=11>Artificer (Armorer)</option>
+        <option value=12>Artificer (Artillerist)</option>
+        <option value=13>Artificer (Battle Smith)</option>
+        <option value=14>Cleric (Ambition)</option>
+        <option value=15>Cleric (Arcana)</option>
+        <option value=16>Cleric (Death)</option>
+        <option value=17>Cleric (Fate)</option>
+        <option value=18>Cleric (Forge)</option>
+        <option value=19>Cleric (Grave)</option>
+        <option value=20>Cleric (Knowledge)</option>
+        <option value=21>Cleric (Light)</option>
+        <option value=22>Cleric (Nature)</option>
+        <option value=23>Cleric (Order)</option>
+        <option value=24>Cleric (Peace)</option>
+        <option value=25>Cleric (Solidarity)</option>
+        <option value=26>Cleric (Strength)</option>
+        <option value=27>Cleric (Tempest)</option>
+        <option value=28>Cleric (Trickery)</option>
+        <option value=29>Cleric (Twilight)</option>
+        <option value=30>Cleric (War)</option>
+        <option value=31>Cleric (Zeal)</option>
+        <option value=32>Druid (Land-Arctic)</option>
+        <option value=33>Druid (Land-Coast)</option>
+        <option value=34>Druid (Land-Desert)</option>
+        <option value=35>Druid (Land-Forest)</option>
+        <option value=36>Druid (Land-Grassland)</option>
+        <option value=37>Druid (Land-Mountain)</option>
+        <option value=38>Druid (Land-Swamp)</option>
+        <option value=39>Druid (Land-Underdark)</option>
+        <option value=40>Druid (Spores)</option>
+        <option value=41>Druid (Wildfire)</option>
+        <option value=42>Fighter (Eldritch Knight)</option>
+        <option value=43>Paladin (Ancients)</option>
+        <option value=44>Paladin (Conquest)</option>
+        <option value=45>Paladin (Crown)</option>
+        <option value=46>Paladin (Devotion)</option>
+        <option value=47>Paladin (Glory)</option>
+        <option value=48>Paladin (Oathbreaker)</option>
+        <option value=49>Paladin (Redemption)</option>
+        <option value=50>Paladin (Vengeance)</option>
+        <option value=51>Paladin (Watchers)</option>
+        <option value=52>Ranger (Drakewarden)</option>
+        <option value=53>Ranger (Fey Wanderer)</option>
+        <option value=54>Ranger (Gloom Stalker)</option>
+        <option value=55>Ranger (Horizon Walker)</option>
+        <option value=56>Ranger (Monster Slayer)</option>
+        <option value=57>Ranger (Swarmkeeper)</option>
+        <option value=58>Rogue (Arcane Trickster)</option>
+        <option value=59>Sorcerer (Aberrant Mind)</option>
+        <option value=60>Sorcerer (Clockwork Soul)</option>
+        <option value=61>Sorcerer (Divine Soul)</option>
+        <option value=62>Sorcerer (Lunar Sorcery)</option>
+        <option value=63>Warlock (Archfey)</option>
+        <option value=64>Warlock (Celestial)</option>
+        <option value=65>Warlock (Fathomless)</option>
+        <option value=66>Warlock (Fiend)</option>
+        <option value=67>Warlock (Genie-Dao)</option>
+        <option value=68>Warlock (Genie-Djinni)</option>
+        <option value=69>Warlock (Genie-Efreeti)</option>
+        <option value=70>Warlock (Genie-Marid)</option>
+        <option value=71>Warlock (Genie)</option>
+        <option value=72>Warlock (Great Old One)</option>
+        <option value=73>Warlock (Hexblade)</option>
+        <option value=74>Warlock (Undead)</option>
+        <option value=75>Warlock (Undying)</option>
+      </select><br>
+    <label for="subclass"><p id="a">Include subclasses?</p><p id="b">Subclass only?</p></label> <input type="checkbox" id="subclass" name="subclass" value="subclass" onclick="subclass()"></td>-->
 
 <script>
   function myFunction() {
@@ -36,6 +117,43 @@
     }
   }
 }
+/*
+  function filterClass() {
+    // Declare variables
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("spells");
+    tr = table.getElementsByTagName("tr");
+
+  // Loop through all table rows, and hide those who don't match the search query
+  for (i = 1; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[1];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+  }
+
+  function subclass() {
+    var checkBox = document.getElementById("subclass");
+    var tohide = document.getElementById("a");
+    var toshow = document.getElementById("b");
+    if (checkBox.checked == true){
+      tohide.style.display = "none";
+      toshow.style.display = "inline";
+    } else {
+      tohide.style.display = "inline";
+      toshow.style.display = "none";
+    }
+  }
+*/
+
 </script>
 
     <table id="spells" class="searchable sortable">
